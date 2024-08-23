@@ -1,0 +1,13 @@
+Predicted vs Actual House Prices
+================================
+
+Actual : $469000.00, Predicted : $416832.09
+Actual : $287000.00, Predicted : $337000.79
+Actual : $464500.00, Predicted : $237927.98
+Actual : $299000.00, Predicted : $231362.24
+Actual : $573900.00, Predicted : $600377.42
+Actual : $229900.00, Predicted : $229572.29
+Actual : $329999.00, Predicted : $303097.59
+Actual : $599000.00, Predicted : $475050.76
+Actual : $539900.00, Predicted : $463841.33
+Actual : $249900.00, Predicted : $189754.06
