@@ -1,19 +1,27 @@
 """
 house_prices_prediction.py
 
-
-A simple Python script that predicts house prices based on various features by building a simple linear regression model
-
+A simple Python script that predicts house prices based on various features by building a linear regression model.
+This script is intended as an introduction to machine learning using Python, focusing on basic concepts such as data preprocessing, model training, and evaluation.
 
 Features:
- - Reads data from a CSV file.
- -
- -
- -
- -
+ - Reads house price data from a CSV file.
+ - Handles missing values by removing any incomplete data entries.
+ - Normalizes the features (Size, Bedrooms, Age) to standardize the input data.
+ - Trains a linear regression model to predict house prices based on the given features.
+ - Evaluates the model's performance using Mean Squared Error (MSE).
+ - Outputs a comparison of predicted vs. actual house prices to a text file.
+
 Usage:
- -
- -
+ - Ensure the dataset is available in a CSV file named 'house_prices.csv' with the following columns:
+   * Size: The size of the house in square feet.
+   * Bedrooms: The number of bedrooms in the house.
+   * Age: The age of the house in years.
+   * Price: The selling price of the house (this is the target variable).
+ - Run the script in a Python environment:
+   `python house_prices_prediction.py`
+ - Review the results in the generated 'house_price_predictions.txt' file.
+
 """
 
 import pandas as pd
